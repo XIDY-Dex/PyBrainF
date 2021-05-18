@@ -17,7 +17,7 @@ That is all you nedd to know about cells modes
   <h1> Issues </h1>
   If your program finds errors that violate the general concepts of the Brainfuck language, it will not run until you fix it.<br>
   Below is a complete list of errors that you may encounter: <br>
-  * Error: row x does not exist! - this error may encounter if you using fixed_cells_num, or trying to move to cells with negative index. Try to switch into -dynamic or search for error in your source code. Also remember, that in pybrainfuck program starts on cell with index 1.
+  * Error: row x does not exist! - this error may encounter if you using fixed_cells_num, or trying to move to cells with negative index. Try to switch into -dynamic or search for error in your source code. Also remember, that in pybrainfuck program starts on cell with index 1.<br>
   *Error: No mode is set for rows. Use -dynamic or -fixed_cells_num <num> - the error speaks for itself. Probably, you forgot the argument, that tells program cells mode.
 List may extend with further updates. If you encounter an error that is not described in this guide, please send a bug report to the issues section.
   
