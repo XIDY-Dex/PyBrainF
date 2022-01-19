@@ -12,7 +12,7 @@ Program, that running in dynamic mode, will automatically create new cells, if y
 However,program with fixed number of cells will create them before starting the interpretation process.  If you exceed the number of allowed cells while the program is running, it will not work. <br>
 <br>
 Dynamic mode can help when you working with big amount of cells, but this mode requires more RAM. On the other hand, fixed cells mode allows you to controll resources and allows you to fix the limit, but you need to strictly control the number of transition operations in the source code. <br>
-That is all you nedd to know about cells modes
+That is all you need to know about cells modes
   
   <h1> Issues </h1>
   If your program finds errors that violate the general concepts of the Brainfuck language, it will not run until you fix it.<br>
